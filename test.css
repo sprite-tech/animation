@@ -17,7 +17,7 @@ body {
   position: absolute;
   z-index: 0;
 }
-@keyframes rotate {
+@keyframes rotate1 {
   0% {
     transform:rotate(-45deg);
   }
