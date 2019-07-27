@@ -1,0 +1,117 @@
+@charset "UTF-8";
+body {
+  width: auto;
+  height: auto;
+  background-color: black;
+}
+.container {
+  overflow: hidden;
+  width: 100%;
+}
+.rotate {
+  animation: rotate 10s ease 0s 1 normal both;
+  border: 2px solid aqua;
+  position: absolute;
+}
+.square {
+  position: absolute;
+  z-index: 0;
+}
+@keyframes rotate {
+  0% {
+    transform:rotate(-45deg);
+  }
+  100% {
+    transform: rotate(405deg);
+  }
+}
+.square1 {
+  width: 250px;
+  height: 250px;
+  margin: calc(100% / 2 - calc(250px / 2));
+}
+.rotate1 {
+  width: 250px;
+  height: 250px;
+  z-index: 0;
+}
+.square2 {
+  width: 225px;
+  height: 225px;
+  margin: calc(100% / 2 - calc(225px / 2));
+}
+.rotate2 {
+  width: 225px;
+  height: 225px;
+  z-index: 0;
+}
+.square3 {
+  width: 200px;
+  height: 200px;
+  margin: calc(100% / 2 - calc(200px / 2));
+}
+.rotate3 {
+  width: 200px;
+  height: 200px;
+  z-index: 0;
+}
+.square4 {
+  width: 175px;
+  height: 175px;
+  margin: calc(100% / 2 - calc(175px / 2));
+}
+.rotate4 {
+  width: 175px;
+  height: 175px;
+  z-index: 0;
+}
+.square5 {
+  width: 150px;
+  height: 150px;
+  margin: calc(100% / 2 - calc(150px / 2));
+}
+.rotate5 {
+  width: 150px;
+  height: 150px;
+  z-index: 0;
+}
+.square6 {
+  width: 125px;
+  height: 125px;
+  margin: calc(100% / 2 - calc(125px / 2));
+}
+.rotate6 {
+  width: 125px;
+  height: 125px;
+  z-index: 0;
+}
+.square7 {
+  width: 100px;
+  height: 100px;
+  margin: calc(100% / 2 - calc(100px / 2));
+}
+.rotate7 {
+  width: 100px;
+  height: 100px;
+  z-index: 0;
+}
+.square8 {
+  width: 75px;
+  height: 75px;
+  margin: calc(100% / 2 - calc(75px / 2));
+}
+.rotate8 {
+  width: 75px;
+  height: 75px;
+  z-index: 0;
+}
+.square9 {
+  width: 50px;
+  height: 50px;
+  margin: calc(100% / 2 - calc(50px / 2));
+}
+.rotate9 {
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+}
