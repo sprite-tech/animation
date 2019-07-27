@@ -9,7 +9,6 @@ body {
   width: 100%;
 }
 .rotate {
-  animation: rotate 10s ease 0s 1 normal both;
   border: 2px solid aqua;
   position: absolute;
 }
@@ -19,10 +18,74 @@ body {
 }
 @keyframes rotate1 {
   0% {
-    transform:rotate(-45deg);
+    transform: rotate(45deg);
   }
   100% {
-    transform: rotate(405deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate2 {
+  0% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate3 {
+  0% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate5 {
+  0% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate6 {
+  0% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate7 {
+  0% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate8 {
+  0% {
+    transform: rotate(-60deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate9 {
+  0% {
+    transform: rotate(-75deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 .square1 {
@@ -31,6 +94,7 @@ body {
   margin: calc(100% / 2 - calc(250px / 2));
 }
 .rotate1 {
+  animation: rotate1 6s ease 0s 1 normal both;
   width: 250px;
   height: 250px;
   z-index: 0;
@@ -41,6 +105,7 @@ body {
   margin: calc(100% / 2 - calc(225px / 2));
 }
 .rotate2 {
+  animation: rotate2 6s ease 0s 1 normal both;
   width: 225px;
   height: 225px;
   z-index: 0;
@@ -51,6 +116,7 @@ body {
   margin: calc(100% / 2 - calc(200px / 2));
 }
 .rotate3 {
+  animation: rotate3 6s ease 0s 1 normal both;
   width: 200px;
   height: 200px;
   z-index: 0;
@@ -61,6 +127,7 @@ body {
   margin: calc(100% / 2 - calc(175px / 2));
 }
 .rotate4 {
+  animation: rotate4 6s ease 0s 1 normal both;
   width: 175px;
   height: 175px;
   z-index: 0;
@@ -71,6 +138,7 @@ body {
   margin: calc(100% / 2 - calc(150px / 2));
 }
 .rotate5 {
+  animation: rotate5 6s ease 0s 1 normal both;
   width: 150px;
   height: 150px;
   z-index: 0;
@@ -81,6 +149,7 @@ body {
   margin: calc(100% / 2 - calc(125px / 2));
 }
 .rotate6 {
+  animation: rotate6 6s ease 0s 1 normal both;
   width: 125px;
   height: 125px;
   z-index: 0;
@@ -91,6 +160,7 @@ body {
   margin: calc(100% / 2 - calc(100px / 2));
 }
 .rotate7 {
+  animation: rotate7 6s ease 0s 1 normal both;
   width: 100px;
   height: 100px;
   z-index: 0;
@@ -101,6 +171,7 @@ body {
   margin: calc(100% / 2 - calc(75px / 2));
 }
 .rotate8 {
+  animation: rotate8 6s ease 0s 1 normal both;
   width: 75px;
   height: 75px;
   z-index: 0;
@@ -111,6 +182,7 @@ body {
   margin: calc(100% / 2 - calc(50px / 2));
 }
 .rotate9 {
+  animation: rotate9 6s ease 0s 1 normal both;
   width: 50px;
   height: 50px;
   z-index: 0;
