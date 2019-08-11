@@ -4,6 +4,9 @@ body {
   height: auto;
   background-color: black;
 }
+.text {
+  display: none;
+}
 .container {
   overflow: hidden;
   width: 100%;
